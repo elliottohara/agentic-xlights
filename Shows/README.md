@@ -1,5 +1,5 @@
 # Your local shows
 
-Place your own show roots here, for example `Christmas/xlights_rgbeffects.xml` and its shared assets. Everything here except this README is ignored by default. No existing show data has been imported.
+Place your own show roots here, for example `Christmas/xlights_rgbeffects.xml` and its supporting assets. Everything here except this README is ignored by default. No existing show data has been imported.
 
-Each new song is scaffolded under `<Show>/Sequences/<Song>/` and receives an independent layout copy. Store versioned private shows in a separate repository or explicitly adjust ignore rules after reviewing what may be published.
+Follow [song setup](../docs/SETUP.md) to give each song its own folder at `<Show>/Sequences/<Song>/`, with an independent layout copy. Use a private show repository for versioned personal show data, or review publication scope before adjusting ignore rules.

@@ -1,9 +1,12 @@
 # {song} — agent notes
 
+Copy this file into the song folder as `AGENT NOTES.md` and replace the placeholders.
+
 ## Inputs
 
 - Show root: {show}
-- Sequence: `{song}.xsq` (not created yet)
+- Song show folder: TBD
+- Sequence: `{song}.xsq` (create in xLights)
 - Media path / exact cut / duration: TBD
 - xLights version / frame interval: TBD
 - Editing owner / files being edited: TBD
@@ -11,11 +14,11 @@
 
 ## Layout and ordering
 
-- Master layout copied at setup; song copy owns subsequent changes.
+- Master layout source and date copied: TBD
 - Song-specific groups and member order: TBD
-- Views / master-view targets / sequencer row order: TBD
+- Views / sequencer row order: TBD
 - Submodel and face definitions to preserve: TBD
-- Shared assets linked to show root; review before shared edits.
+- Asset locations / copied or shared / verified paths: TBD
 
 ## Musical plan
 
@@ -26,7 +29,8 @@
 
 ## Progress and verification
 
-- Completed time ranges / build scripts: none
-- Render / preview paths and inspected ranges: none
-- Known issues and outstanding live checks: TBD
-- Next action: verify media and layout, then create the sequence through computer control of xLights.
+- Completed time ranges: none
+- Preview paths and inspected ranges: none
+- Audio synchronization checks performed: none
+- Known issues and outstanding checks: TBD
+- Current GUI state and next action: verify media and layout, then create the sequence in xLights.

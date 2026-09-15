@@ -1,47 +1,33 @@
 # agentic-xlights
 
-Build musical xLights shows with GPT agents. Designed for a Codex + GPT-6 Astra workflow: inspect the real layout, plan the musical voices, author through computer control of xLights, render, review, and iterate. Use the normal checkout with one agent editing a file at a time and one agent controlling the GUI at a time.
+Build musical xLights shows with GPT-6 Astra using computer control. The agent works in the xLights interface: inspect the layout, arrange groups, author effects, render, watch, and refine.
 
-**Every song is its own xLights show folder.** Each gets a layout copy so groups, submodels, views, and display ordering can be tuned for that song. The master layout stays user-owned. Shared assets use relative links; layouts never automatically sync.
+**Every song gets its own show folder**, with an independent layout for its groups, submodels, views, and ordering. **One agent edits a file at a time, and one agent controls the GUI at a time.** Use the normal checkout.
 
-This is a fresh toolkit extracted from a working show project. No songs, sequences, personal layouts, controller configurations, or purchased media are included.
+This repository contains instructions and a song-notes template. No songs, sequences, personal layouts, controller configurations, or purchased media are included.
 
 ## Start here
 
-Requirements: Python 3.10+, Git, and a local GUI installation of xLights. Your agent host needs computer-control access to the local xLights GUI. The launch example below targets macOS; on other platforms open xLights and select the song show folder. Folder setup uses symlinks, which may need additional permissions on Windows.
+You need xLights and an agent host with computer-control access to your desktop. Select GPT-6 Astra in your host when available. No Python, automation server, or separate OpenAI API key is required by this repository. Git is useful for cloning and tracking changes; the instructions can also be downloaded.
 
-1. Clone this repository and open it in Codex.
-2. Select GPT-6 Astra if your Codex account exposes it. Model selection belongs to your agent host; this repository does not change global settings or require a separate OpenAI API key.
-3. Point the agent at [AGENTS.md](AGENTS.md). For another agent host, explicitly tell it to read that file and the linked workflow.
-4. Create a local show root such as `Shows/Christmas/` and place your master `xlights_rgbeffects.xml` there, with any shared assets you own. `Shows/` contents are ignored by default so local display data stays out of this public toolkit.
-5. Scaffold a song:
-
-```bash
-python3 Tools/setup_song.py --show Shows/Christmas --song "My Song 2026"
-```
-
-This prepares folders and notes; create the actual `.xsq` later through xLights. Start xLights with the **absolute song folder** as `-s`, never the shared show root.
-
-```bash
-open -a xLights --args -s "$PWD/Shows/Christmas/Sequences/My Song 2026"
-```
-
-Before authoring, verify the show folder and the open sequence's path, duration, and media in the UI. Coordinate file and GUI ownership before editing; no worktree setup is required.
+1. Open this repository in your agent host and point it at [AGENTS.md](AGENTS.md).
+2. Provide your master show folder and the song's exact media file.
+3. Have the agent follow [song setup](docs/SETUP.md) to create a separate show folder and copy the layout without changing the master.
+4. Open that song folder in xLights, verify the layout and media, then tune groups and ordering for the song.
+5. Build a representative passage, render it, inspect the preview, and iterate before extending the sequence.
 
 ## Give your agent a task
 
-> Read AGENTS.md and docs/WORKFLOW.md. Use GPT-6 Astra in the agent host. Use computer control of xLights, with one agent editing a file at a time. Start a new song in its own show folder using my master layout. Inspect available models and submodels, propose the song's groups and view ordering, and document the musical plan before adding effects. Render and review a representative section before building the rest.
+> Read AGENTS.md. Use computer control to work in xLights. Create a separate show folder for this song using a copy of my master layout. Inspect the models and submodels, tune the song's groups and ordering, and record the musical plan in its AGENT NOTES.md. Build and review a representative passage before continuing. Only one agent may edit a given file or control the GUI at a time.
 
-## What is here
+## Instructions
 
-- [AGENTS.md](AGENTS.md): portable agent contract.
-- [Song workflow](docs/WORKFLOW.md): musical planning, timing, layout tuning, and visual review.
-- [Optional xLights API lessons](docs/XLIGHTS.md): settings, deletion, rendering, and known pitfalls.
-- [Editing sessions](docs/SESSIONS.md): file ownership, GUI ownership, and handoffs.
-- `Tools/setup_song.py`: repeatable song scaffolding that preserves existing layouts and notes.
-- `Tools/xlights_api.py`: optional standard-library HTTP client adapted from the original project.
-- `templates/SONG_NOTES.md`: continuity and review checklist for each song.
+- [AGENTS.md](AGENTS.md): agent contract.
+- [Song setup](docs/SETUP.md): folders, independent layout, assets, and notes.
+- [Song workflow](docs/WORKFLOW.md): musical planning, authoring, and visual review.
+- [Editing sessions](docs/SESSIONS.md): ownership and handoffs.
+- [Song notes template](templates/SONG_NOTES.md): copy into each song folder as `AGENT NOTES.md`.
 
-Run the offline checks with `python3 -m unittest discover -s tests -v`. They do not start xLights or drive lights. Live rendering must be checked on your own display.
+Local shows may live in `Shows/`, whose contents are ignored by default. Use a private show repository when you want to version personal show data.
 
-For agent instruction discovery, see [OpenAI's AGENTS.md documentation](https://developers.openai.com/codex/guides/agents-md). This project is independent of OpenAI and xLights.
+This project is independent of OpenAI and xLights.

@@ -2,36 +2,38 @@
 
 ## 1. Establish inputs
 
-Identify the exact audio/video cut, duration, desired style, frame interval (25 ms is a useful starting point), and master layout. Do not assume timings from another cut align. Inspect the actual XML for names, trailing spaces, model membership, submodels, face definitions, and views.
+Identify the exact media cut, duration, desired style, frame interval, and master layout. Follow `SETUP.md` to prepare the song's own show folder. Read its notes before resuming existing work.
 
-Run `Tools/setup_song.py` to make `<Show>/Sequences/<Song>/`. The layout is copied once; subsequent runs preserve it and the song notes. No sequence is fabricated. Media and scripts belong in the song's `Media/` and `Tools/`; timing templates in its `Timing Templates/`.
+Inspect models, groups, submodels, face definitions, and views in xLights. Use the actual display as the source of truth.
 
 ## 2. Engineer the song's layout
 
-Launch xLights against the song folder. Build song-specific groups for musical roles and useful part banks. Choose group membership and member order deliberately. Arrange views and sequencer rows so related musical voices sit together; ensure authoring targets are in the master view. Document these choices in song notes.
+Open the song folder in xLights. Build song-specific groups for musical roles and useful prop parts. Choose group membership and member order deliberately. Arrange views and sequencer rows so related musical voices sit together. Document these choices in song notes.
 
-The song layout may diverge from the master. Changes in the master do not propagate automatically: compare and selectively merge them when requested. Reload the show in xLights after external layout edits. Shared network/asset links still affect every song using those assets.
+The song layout can diverge from the master. Master changes do not propagate automatically; compare and selectively incorporate them when requested. Preserve hand-maintained submodels and face definitions.
 
 ## 3. Plan music before effects
 
-Mark sections and energy changes, then beats/bars and important instrument events. Map instruments to visual voices: rhythmic prop parts, sustained outline bases, melodic motion, vocal faces, and matrix content. Plan matrices early so video and house lighting complement each other.
+Mark sections and energy changes, then beats, bars, and important instrument events using xLights timing tools. Map instruments to visual voices: rhythmic prop parts, sustained outline bases, melodic motion, vocal faces, and matrix content. Plan matrices early so video and house lighting complement each other.
 
-Inspect render/buffer styles from any authorized reference sequences. Whole-prop effects alone do not recreate detailed part-bank choreography. Useful patterns include a slow base on spokes, texture on rings, and brief accent hits on arrows or other distinct parts. Actual settings depend on the layout and xLights version.
+Inspect buffer styles and settings in authorized reference sequences through xLights. Detailed choreography may need separate prop parts rather than whole-prop effects. Group order and buffer style determine how motion reads; preview the result.
 
-Use short full-display accents sparingly. Preserve dark valleys and calm passages. Avoid static filling everywhere, accidental double-rendering from overlapping groups, and scattered chases on groups with non-geographic node order. Agree song-specific palette and face rules with the user; no hard-coded assumptions about their props.
+Use short full-display accents sparingly. Preserve dark valleys and calm passages. Avoid accidental double-rendering from overlapping groups and scattered chases caused by non-geographic node order. Establish song-specific palette and face rules from the user's preferences.
 
 ## 4. Timing and singing faces
 
-Reuse existing tracks only for the identical media cut. Import each name once. For new lyric timing, a useful optional pipeline is audio extraction, word transcription, alignment to canonical lyrics, human correction, then xLights dictionary phonemes. Sung vocals may be lost by voice-activity detection; inspect the result. Snap marks to frames and verify against the audio, especially phrase starts.
+Reuse existing timing tracks only for the identical media cut, and import each track once through the GUI. For new timings, use xLights timing and lyric tools, refine against the media, and verify phrase boundaries and phonemes. Separate voices when different props sing different lines.
 
-Lyric tracks use phrase, word, and phoneme layers. Separate voices when different props sing different lines. Check face definition names exactly, including trailing spaces, and inspect custom colors before assuming a palette controls the face.
+Check face definitions exactly, including trailing spaces, and inspect custom colors before assuming a palette controls the face. Review lip sync in playback. If the agent cannot access the audio, state that limitation and do not claim to have verified synchronization by ear.
 
 ## 5. Author, render, iterate
 
-Coordinate file and GUI ownership as described in `docs/SESSIONS.md`. Use computer control to create the sequence in xLights, save to an absolute path, and verify its media and duration in the UI. Start with a representative phrase including a transition. Author effects through the GUI, render, and inspect the video/GUI preview. For explicitly chosen API work, consult `docs/XLIGHTS.md`. Verify geometry, contrast, motion direction, lyrics, and synchronization. Extend the successful design across the song, with section-specific variation.
+Coordinate ownership as described in `SESSIONS.md`. Start with a representative phrase including a transition. Create and edit effects through computer control. Confirm the selected model, layer, time range, and settings before applying each change.
 
-API success and valid XML cannot prove a sequence looks good. Check effect bounds, overlaps, target membership, missing assets, and visual output. Create export directories before rendering. Document any live checks you could not run.
+Render and inspect the preview. Verify geometry, contrast, motion direction, lyrics, and synchronization. Check effect bounds, overlaps, missing assets, and whether groups render as intended. Extend the successful design across the song with section-specific variation.
+
+A successful save does not prove the sequence looks good. Record which preview ranges were actually inspected and which checks remain outstanding.
 
 ## 6. Handoff
 
-Update `AGENT NOTES.md` with the editing owner, files being edited, layout choices, timing sources, scripts, preview locations, completed ranges, and unresolved issues. Keep tools reproducible and paths checkout-relative wherever possible; xLights may still store absolute media paths, which need verification after moving a song.
+Save and update `AGENT NOTES.md` with the editing owner, files changed, layout choices, timing sources, preview locations, completed ranges, and unresolved issues. Include the current GUI state and exact next action. Verify asset paths again if a song is moved.
