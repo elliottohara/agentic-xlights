@@ -1,0 +1,21 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+# Personal shows are local by default; opt in only after reviewing publication.
+Shows/*
+!Shows/README.md
+*.fseq
+*.eseq
+*.xbkp
+*.jbkp
+*.xsq.bak*
+**/Backup/
+**/Backups/
+**/RenderCache/
+**/Render Cache/
+**/RenderCompare/
+xLights_dbgrpt-*.zip
