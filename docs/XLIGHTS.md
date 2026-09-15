@@ -1,4 +1,6 @@
-# xLights automation lessons
+# Optional xLights automation lessons
+
+The standard workflow uses computer control of the GUI. Consult this reference only when choosing API tooling for a task. API ports do not require worktrees; follow the one-editor rules in `SESSIONS.md`.
 
 These observations were learned in a working macOS show project in July 2026. Recheck behavior against your installed xLights version; they are not a promise about future releases.
 

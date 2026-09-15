@@ -19,10 +19,10 @@ Build intentional, musical xLights sequences with GPT, using GPT-6 Astra when se
 
 ## Session and editing rules
 
-- Use an isolated worktree for sequence edits. One writer per worktree and one owner per xLights instance/show folder.
-- Verify slot, show folder, sequence path, duration, and media before mutations. Stop on a mismatch.
+- Use the normal checkout. Only one agent may edit a given file at a time; coordinate ownership before editing and hand it off explicitly. Do not create worktrees as part of the standard workflow.
+- Use computer control of the xLights GUI by default. Only one agent controls the GUI at a time, even when editing different files. Verify the show folder, sequence path, duration, and media in the UI before changes; stop on a mismatch.
 - Close a sequence before checking out files beneath it. Save before direct XML edits; back up, reopen, and verify afterward.
-- Prefer `addEffect` through the API. Never use `setEffectSettings`; its parsing can corrupt settings.
+- Create and edit effects through the GUI. The API client is optional for tasks that call for it; read `docs/XLIGHTS.md` first and never use `setEffectSettings`, whose parsing can corrupt settings.
 - Direct, backed-up `.xsq` edits are appropriate for deleting effects. Do not fake deletion with Off effects or shrinking effects into dark windows.
 - Never fabricate EffectDB or palette indices. Import each timing track once. Effects on the same element/layer must not overlap.
 - Inspect existing submodels before attempting custom grids or per-pixel work. Preserve hand-maintained ranges.

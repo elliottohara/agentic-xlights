@@ -6,7 +6,8 @@
 - Sequence: `{song}.xsq` (not created yet)
 - Media path / exact cut / duration: TBD
 - xLights version / frame interval: TBD
-- Branch / worktree / slot / owner: TBD
+- Editing owner / files being edited: TBD
+- GUI owner / handoff status: TBD
 
 ## Layout and ordering
 
@@ -28,4 +29,4 @@
 - Completed time ranges / build scripts: none
 - Render / preview paths and inspected ranges: none
 - Known issues and outstanding live checks: TBD
-- Next action: verify media and layout, then create the sequence through xLights.
+- Next action: verify media and layout, then create the sequence through computer control of xLights.

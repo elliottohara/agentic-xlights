@@ -10,7 +10,7 @@ Run `Tools/setup_song.py` to make `<Show>/Sequences/<Song>/`. The layout is copi
 
 Launch xLights against the song folder. Build song-specific groups for musical roles and useful part banks. Choose group membership and member order deliberately. Arrange views and sequencer rows so related musical voices sit together; ensure authoring targets are in the master view. Document these choices in song notes.
 
-The song layout may diverge from the master. Changes in the master do not propagate automatically: compare and selectively merge them when requested. Reload the slot's instance after external layout edits. Shared network/asset links still affect every song using those assets.
+The song layout may diverge from the master. Changes in the master do not propagate automatically: compare and selectively merge them when requested. Reload the show in xLights after external layout edits. Shared network/asset links still affect every song using those assets.
 
 ## 3. Plan music before effects
 
@@ -28,10 +28,10 @@ Lyric tracks use phrase, word, and phoneme layers. Separate voices when differen
 
 ## 5. Author, render, iterate
 
-Create the sequence through xLights, save to an absolute path, and verify its media and duration. Start with a representative phrase including a transition. Author using `addEffect`, render, and inspect the video/GUI preview. Verify geometry, contrast, motion direction, lyrics, and synchronization. Extend the successful design across the song, with section-specific variation.
+Coordinate file and GUI ownership as described in `docs/SESSIONS.md`. Use computer control to create the sequence in xLights, save to an absolute path, and verify its media and duration in the UI. Start with a representative phrase including a transition. Author effects through the GUI, render, and inspect the video/GUI preview. For explicitly chosen API work, consult `docs/XLIGHTS.md`. Verify geometry, contrast, motion direction, lyrics, and synchronization. Extend the successful design across the song, with section-specific variation.
 
 API success and valid XML cannot prove a sequence looks good. Check effect bounds, overlaps, target membership, missing assets, and visual output. Create export directories before rendering. Document any live checks you could not run.
 
 ## 6. Handoff
 
-Update `AGENT NOTES.md` with the branch/slot, layout choices, timing sources, scripts, preview locations, completed ranges, and unresolved issues. Keep tools reproducible and paths checkout-relative wherever possible; xLights may still store absolute media paths, which need verification after moving a song.
+Update `AGENT NOTES.md` with the editing owner, files being edited, layout choices, timing sources, scripts, preview locations, completed ranges, and unresolved issues. Keep tools reproducible and paths checkout-relative wherever possible; xLights may still store absolute media paths, which need verification after moving a song.
