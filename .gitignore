@@ -1,10 +1,10 @@
 .DS_Store
+.build/
 .env
 .env.*
 !.env.example
-# Personal shows are local by default; opt in only after reviewing publication.
-Shows/*
-!Shows/README.md
+
+# Generated playback files, previews, caches, and recovery files are never source.
 *.fseq
 *.eseq
 *.xbkp
@@ -15,4 +15,6 @@ Shows/*
 **/RenderCache/
 **/Render Cache/
 **/RenderCompare/
+**/Previews/
+**/previews/
 xLights_dbgrpt-*.zip

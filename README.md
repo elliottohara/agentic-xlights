@@ -28,6 +28,6 @@ You need xLights and an agent host with computer-control access to your desktop.
 - [Editing sessions](docs/SESSIONS.md): ownership and handoffs.
 - [Song notes template](templates/SONG_NOTES.md): copy into each song folder as `AGENT NOTES.md`.
 
-Local shows may live in `Shows/`, whose contents are ignored by default. Use a private show repository when you want to version personal show data.
+Shows belong in `Shows/`. Track actual sequences, layouts, and timing templates in Git, and original song media in Git LFS. Generated previews, playback exports, caches, and backups are excluded entirely. See [storage policy](docs/STORAGE.md). Install and initialize Git LFS before adding media; it is not needed to read these instructions or operate xLights.
 
 This project is independent of OpenAI and xLights.

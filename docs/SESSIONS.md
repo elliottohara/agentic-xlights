@@ -18,4 +18,4 @@ Inspect the current selection before each edit and observe the result afterward.
 
 Save the work and update `AGENT NOTES.md` with completed ranges, layout changes, inspected previews, outstanding issues, and the next action. Explicitly release file and GUI ownership before another agent continues. Commit intended changes and push when requested.
 
-Local `Shows/` contents are ignored by default. Use a private show repository for versioned personal show data, or deliberately review what may be published before changing ignore rules.
+Track show source and original media according to `STORAGE.md`. Keep generated previews and rendered playback out of commits, and review publication rights before uploading media to this public repository.

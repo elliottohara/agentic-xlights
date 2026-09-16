@@ -1,5 +1,7 @@
-# Your local shows
+# Show files
 
-Place your own show roots here, for example `Christmas/xlights_rgbeffects.xml` and its supporting assets. Everything here except this README is ignored by default. No existing show data has been imported.
+Actual show source and song media belong here. Follow [song setup](../docs/SETUP.md) to give each song its own folder at `<Show>/Sequences/<Song>/`, with an independent layout copy.
 
-Follow [song setup](../docs/SETUP.md) to give each song its own folder at `<Show>/Sequences/<Song>/`, with an independent layout copy. Use a private show repository for versioned personal show data, or review publication scope before adjusting ignore rules.
+Sequences, layouts, timing templates, and notes use ordinary Git. Original song media and supporting images use Git LFS. Generated previews, playback exports, caches, and backups are excluded entirely. See [storage policy](../docs/STORAGE.md).
+
+No existing show data has been imported yet.

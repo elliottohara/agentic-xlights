@@ -14,7 +14,7 @@ Build intentional, musical xLights sequences with GPT-6 Astra using computer con
 - Copy the master layout once. Each song owns its `xlights_rgbeffects.xml`; tune its groups, group member order, submodels, views, and sequencer row order for the music.
 - Preserve existing song layouts and notes when resuming. Never silently refresh a customized layout from the master.
 - Leave the master layout and controller configuration alone unless the user requests changes to them.
-- Keep song media, timing templates, and previews with the song. Verify asset paths after copying a layout.
+- Keep original song media and timing templates with the song and track them according to `docs/STORAGE.md`. Generated previews belong in ignored `Previews/` or `RenderCompare/` folders and must never be committed. Verify asset paths after copying a layout.
 - Shared assets require coordination before edits; changing a shared file can affect other songs.
 - Do not migrate existing songs or publish personal show data unless requested.
 
