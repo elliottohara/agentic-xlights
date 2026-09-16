@@ -4,7 +4,7 @@ Build musical xLights shows with GPT-6 Astra using computer control. The agent w
 
 **Every song gets its own show folder**, with an independent layout for its groups, submodels, views, and ordering. **One agent edits a file at a time, and one agent controls the GUI at a time.** Use the normal checkout.
 
-This repository contains instructions and a song-notes template. No songs, sequences, personal layouts, controller configurations, or purchased media are included.
+This repository contains computer-control instructions, a song-notes template, and standalone show folders under [Shows/Individual](Shows/Individual/README.md). Original media uses Git LFS; generated previews and rendered playback are excluded.
 
 ## Start here
 

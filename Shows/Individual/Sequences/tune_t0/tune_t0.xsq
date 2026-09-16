@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2026.17</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>25 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile></mediaFile>
+    <sequenceDuration>30.000</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHECKBOX_Marquee_PixelOffsets=0,E_CHECKBOX_Marquee_Reverse=0,E_CHECKBOX_Marquee_WrapX=0,E_CHECKBOX_Marquee_WrapY=0,E_NOTEBOOK_Marquee=Settings,E_SLIDER_MarqueeXC=0,E_SLIDER_MarqueeYC=0,E_SLIDER_Marquee_Band_Size=3,E_SLIDER_Marquee_ScaleX=100,E_SLIDER_Marquee_ScaleY=100,E_SLIDER_Marquee_Skip_Size=0,E_SLIDER_Marquee_Speed=3,E_SLIDER_Marquee_Stagger=0,E_SLIDER_Marquee_Start=0,E_SLIDER_Marquee_Thickness=2</Effect>
+    <Effect>B_CUSTOM_SubBuffer=64.12x-2.58x102.97x91.34x0.00x0.00,E_CHECKBOX_Pictures_PixelOffsets=0,E_CHECKBOX_Pictures_Shimmer=0,E_CHECKBOX_Pictures_TransparentBlack=1,E_CHECKBOX_Pictures_WrapX=0,E_CHOICE_Pictures_Direction=none,E_CHOICE_Scaling=Scale To Fit,E_SLIDER_PicturesXC=0,E_SLIDER_PicturesYC=0,E_SLIDER_Pictures_EndScale=100,E_SLIDER_Pictures_StartScale=100,E_TEXTCTRL_Pictures_Filename=Media/Images-57b64d/4c46b9ac8d2e1b4ee81a7a51569870bf (1).jpg,E_TEXTCTRL_Pictures_FrameRateAdj=1.0,E_TEXTCTRL_Pictures_Speed=1.0,E_TEXTCTRL_Pictures_TransparentBlack=0,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>B_CUSTOM_SubBuffer=-1.00x61.00x86.00x102.00x0.00x0.00,E_CHECKBOX_Text_Color_PerWord=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FILEPICKERCTRL_Text_File=,E_FONTPICKER_Text_Font=bold arial 12 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=O'Hara Family Light Show!,E_TEXTCTRL_Text_Speed=21</Effect>
+    <Effect>B_CUSTOM_SubBuffer=-9.00x23.00x79.00x71.00x0.00x0.00,E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FILEPICKERCTRL_Text_File=,E_FONTPICKER_Text_Font=bold arial 22 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=,E_TEXTCTRL_Text_Speed=20</Effect>
+    <Effect>B_CUSTOM_SubBuffer=-9.00x23.00x79.00x71.00x0.00x0.00,E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FILEPICKERCTRL_Text_File=,E_FONTPICKER_Text_Font=bold arial 22 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=Tune To 87.9,E_TEXTCTRL_Text_Speed=20</Effect>
+    <Effect>B_CUSTOM_SubBuffer=4.00x-7.00x25.00x43.00x0.00x0.00,E_CHECKBOX_Pictures_PixelOffsets=0,E_CHECKBOX_Pictures_Shimmer=0,E_CHECKBOX_Pictures_TransparentBlack=0,E_CHECKBOX_Pictures_WrapX=0,E_CHOICE_Pictures_Direction=peekaboo,E_CHOICE_Scaling=Scale To Fit,E_SLIDER_PicturesXC=0,E_SLIDER_PicturesYC=0,E_SLIDER_Pictures_EndScale=100,E_SLIDER_Pictures_StartScale=100,E_TEXTCTRL_Pictures_Filename=Media/Images-57b64d/reindeer_peekaboo.png,E_TEXTCTRL_Pictures_FrameRateAdj=1.0,E_TEXTCTRL_Pictures_Speed=1.0,E_TEXTCTRL_Pictures_TransparentBlack=0</Effect>
+    <Effect>B_CUSTOM_SubBuffer=0.00x-5.00x77.00x37.00x0.00x0.00,E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=none,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FILEPICKERCTRL_Text_File=,E_FONTPICKER_Text_Font=bold arial 12 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=Headlights off please! ,E_TEXTCTRL_Text_Speed=21,T_CHOICE_In_Transition_Type=Wipe,T_CHOICE_Out_Transition_Type=Wipe,T_SLIDER_In_Transition_Adjust=50,T_SLIDER_Out_Transition_Adjust=50,T_TEXTCTRL_Fadein=1,T_TEXTCTRL_Fadeout=1</Effect>
+    <Effect>B_CUSTOM_SubBuffer=0.00x-5.00x77.00x37.00x0.00x0.00,E_CHECKBOX_TextToCenter=0,E_CHECKBOX_Text_PixelOffsets=0,E_CHOICE_Text_Count=none,E_CHOICE_Text_Dir=left,E_CHOICE_Text_Effect=normal,E_CHOICE_Text_Font=Use OS Fonts,E_FILEPICKERCTRL_Text_File=,E_FONTPICKER_Text_Font=bold arial 12 utf-8,E_SLIDER_Text_XEnd=0,E_SLIDER_Text_XStart=0,E_SLIDER_Text_YEnd=0,E_SLIDER_Text_YStart=0,E_TEXTCTRL_Text=Show runs from sunset to 10:30pm,E_TEXTCTRL_Text_Speed=21</Effect>
+    <Effect>E_CHOICE_Falling=Falling,E_SLIDER_Snowflakes_Count=35,E_SLIDER_Snowflakes_Speed=16,E_SLIDER_Snowflakes_Type=2</Effect>
+  </EffectDB>
+  <SequenceMedia />
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode>" source="&lt;auto-generated>" name="Nutcracker" />
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="false" type="timing" name="New Timing" visible="true" views="Master View,Faces,Snowflakes,Everything,Default,Arches,Matrixes,Trees only,Effects,Floods" active="false" />
+    <Element collapsed="false" type="model" name="Tune To" visible="true" />
+    <Element collapsed="false" type="model" name="Arch - 1" visible="true" />
+    <Element collapsed="false" type="model" name="Arch - 2" visible="true" />
+    <Element collapsed="false" type="model" name="Arch - 3" visible="true" />
+    <Element collapsed="false" type="model" name="Arch - 4" visible="true" />
+    <Element collapsed="false" type="model" name="Matrix - Downstairs Window" visible="true" />
+    <Element collapsed="false" type="model" name="Matrix - Entry" visible="true" />
+    <Element collapsed="false" type="model" name="Matrix - Lantana" visible="true" />
+    <Element collapsed="false" type="model" name="Matrix-Garage Window" visible="true" />
+    <Element collapsed="false" type="model" name="Projector" visible="true" />
+    <Element collapsed="false" type="model" name="Matrix - C1" visible="true" />
+    <Element collapsed="false" type="model" name="Matrix - C2" visible="true" />
+    <Element collapsed="false" type="model" name="Matrix - C3" visible="true" />
+    <Element collapsed="false" type="model" name="Matrix - C4" visible="true" />
+    <Element collapsed="false" type="model" name="Matrix - C5" visible="true" />
+    <Element collapsed="false" type="model" name="Matrix - C6" visible="true" />
+    <Element collapsed="false" type="model" name="GE Priem Cube SM 1" visible="true" />
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Tune To">
+      <EffectLayer />
+      <EffectLayer />
+      <EffectLayer>
+        <Effect ref="0" name="Marquee" startTime="0" endTime="30975" palette="0" />
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="1" name="Pictures" startTime="0" endTime="16300" palette="1" />
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="2" name="Text" startTime="0" endTime="30975" palette="1" />
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="3" name="Text" startTime="0" endTime="30975" palette="2" />
+      </EffectLayer>
+      <EffectLayer>
+        <Effect ref="4" name="Text" startTime="0" endTime="30975" palette="2" />
+      </EffectLayer>
+      <EffectLayer />
+      <EffectLayer>
+        <Effect ref="5" name="Pictures" startTime="0" endTime="5400" palette="1" />
+        <Effect ref="6" name="Text" id="1" startTime="5400" endTime="16575" palette="1" />
+        <Effect ref="7" name="Text" id="2" startTime="17500" endTime="28675" palette="1" />
+      </EffectLayer>
+      <EffectLayer />
+      <EffectLayer>
+        <Effect ref="8" name="Snowflakes" startTime="0" endTime="30975" palette="1" />
+      </EffectLayer>
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Arch - 1">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Arch - 2">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Arch - 3">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Arch - 4">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Matrix - Downstairs Window">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Matrix - Entry">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Matrix - Lantana">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Matrix-Garage Window">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Projector">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Matrix - C1">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Matrix - C2">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Matrix - C3">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Matrix - C4">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Matrix - C5">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Matrix - C6">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="GE Priem Cube SM 1">
+      <EffectLayer />
+    </Element>
+  </ElementEffects>
+  <lastView>6</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1" />
+    <Tag number="1" position="-1" />
+    <Tag number="2" position="-1" />
+    <Tag number="3" position="-1" />
+    <Tag number="4" position="-1" />
+    <Tag number="5" position="-1" />
+    <Tag number="6" position="-1" />
+    <Tag number="7" position="-1" />
+    <Tag number="8" position="-1" />
+    <Tag number="9" position="-1" />
+  </TimingTags>
+</xsequence>

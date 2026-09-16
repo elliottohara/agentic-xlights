@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2026.17</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>25 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile></mediaFile>
+    <sequenceDuration>60.000</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FFFFFF,C_BUTTON_Palette3=#008000,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF0000,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=1,C_CHECKBOX_Palette8=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FFFFFF,C_BUTTON_Palette3=#008000,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF0000,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette8=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=0,E_CHECKBOX_Bars_Highlight=0,E_CHECKBOX_Bars_UseFirstColorForHighlight=0,E_CHOICE_Bars_Direction=up,E_SLIDER_Bars_BarCount=1,E_TEXTCTRL_Bars_Cycles=1.0</Effect>
+    <Effect>B_CHOICE_BufferTransform=Rotate CC 90,E_CHECKBOX_Bars_3D=0,E_CHECKBOX_Bars_Gradient=0,E_CHECKBOX_Bars_Highlight=0,E_CHECKBOX_Bars_UseFirstColorForHighlight=0,E_CHOICE_Bars_Direction=up,E_SLIDER_Bars_BarCount=1,E_TEXTCTRL_Bars_Cycles=1.0</Effect>
+    <Effect></Effect>
+  </EffectDB>
+  <SequenceMedia />
+  <DataLayers>
+    <DataLayer lor_params="50" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode>" source="&lt;auto-generated>" name="Nutcracker" />
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="false" type="timing" name="New Timing" visible="true" views="Master View,Faces,Snowflakes,Everything,Default,Arches,Matrixes,Yard Elements,Effects,Floods,Toni,Robbie,Spinners" active="true" />
+    <Element collapsed="false" type="model" name="Whole Scene" visible="true" />
+    <Element collapsed="false" type="model" name="GE MOAW Hook CW GRP" visible="true" />
+    <Element collapsed="false" type="model" name="Elliott - GE Starlord 2" visible="true" />
+    <Element collapsed="false" type="model" name="Elliott - GE Starlord 1" visible="true" />
+    <Element collapsed="false" type="model" name="Elliott - GE Reel Max 2" visible="true" />
+    <Element collapsed="false" type="model" name="Elliott - GE Rosa Grande 1" visible="true" />
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Whole Scene">
+      <EffectLayer>
+        <Effect ref="0" name="Bars" startTime="0" endTime="15050" palette="0" />
+        <Effect ref="1" name="Bars" id="1" startTime="15150" endTime="30200" palette="0" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="GE MOAW Hook CW GRP">
+      <EffectLayer>
+        <Effect ref="2" name="On" startTime="800" endTime="1800" palette="1" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Elliott - GE Starlord 2">
+      <EffectLayer />
+      <Strand index="0">
+        <Node index="40" name="Node 41">
+          <Effect ref="2" name="On" startTime="12800" endTime="13800" palette="0" />
+        </Node>
+      </Strand>
+    </Element>
+    <Element type="model" name="Elliott - GE Starlord 1">
+      <EffectLayer />
+      <Strand index="0">
+        <Node index="129" name="Node 130">
+          <Effect ref="2" name="On" startTime="650" endTime="2950" palette="0" />
+        </Node>
+      </Strand>
+    </Element>
+    <Element type="model" name="Elliott - GE Reel Max 2">
+      <EffectLayer />
+      <Strand index="0">
+        <Node index="508" name="Node 509">
+          <Effect ref="2" name="On" startTime="150" endTime="1150" palette="2" />
+        </Node>
+      </Strand>
+    </Element>
+    <Element type="model" name="Elliott - GE Rosa Grande 1">
+      <EffectLayer />
+      <Strand index="0" name="MyCustomModel">
+        <Node index="133" name="Node 134">
+          <Effect ref="2" name="On" startTime="0" endTime="2700" palette="1" />
+        </Node>
+      </Strand>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1" />
+    <Tag number="1" position="-1" />
+    <Tag number="2" position="-1" />
+    <Tag number="3" position="-1" />
+    <Tag number="4" position="-1" />
+    <Tag number="5" position="-1" />
+    <Tag number="6" position="-1" />
+    <Tag number="7" position="-1" />
+    <Tag number="8" position="-1" />
+    <Tag number="9" position="-1" />
+  </TimingTags>
+</xsequence>

@@ -1,0 +1,265 @@
+<?xml version="1.0"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2026.17</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song></song>
+    <artist></artist>
+    <album></album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>25 ms</sequenceTiming>
+    <sequenceType>Animation</sequenceType>
+    <mediaFile></mediaFile>
+    <sequenceDuration>30.000</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFBB8,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette5=1,C_SLIDER_Brightness=78,C_SLIDER_SparkleFrequency=86</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFBB8,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1,C_SLIDER_Brightness=78,C_SLIDER_SparkleFrequency=178</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFBB8,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette5=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFBB8,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette5=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFBB8,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1,C_SLIDER_SparkleFrequency=115</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFBB8,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette5=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFBB8,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette5=1,C_SLIDER_SparkleFrequency=145</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFBB8,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette5=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFBB8,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette5=1,C_SLIDER_SparkleFrequency=35</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FFFFFF,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#FB0207,C_BUTTON_Palette5=#FFFBB8,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#FFFF0A,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette7=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FFFFFF,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFBB8,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#FFFF0A,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette7=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FFFFFF,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFBB8,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#FFFF0A,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette7=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFBB8,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette5=1</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFBB8,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette2=1,C_CHECKBOX_Palette6=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>B_CHOICE_BufferStyle=Single Line,E_CHECKBOX_Marquee_PixelOffsets=0,E_CHECKBOX_Marquee_Reverse=0,E_CHECKBOX_Marquee_WrapX=0,E_CHECKBOX_Marquee_WrapY=0,E_NOTEBOOK_Marquee=Settings,E_SLIDER_MarqueeXC=0,E_SLIDER_MarqueeYC=0,E_SLIDER_Marquee_Band_Size=3,E_SLIDER_Marquee_ScaleX=100,E_SLIDER_Marquee_ScaleY=100,E_SLIDER_Marquee_Skip_Size=0,E_SLIDER_Marquee_Speed=1,E_SLIDER_Marquee_Stagger=0,E_SLIDER_Marquee_Start=0,E_SLIDER_Marquee_Thickness=1</Effect>
+    <Effect>E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_Fade_Type=None,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_SingleStrand_FX=Fireworks 1D,E_CHOICE_SingleStrand_FX_Palette=* Colors Only,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=9,E_SLIDER_FX_Intensity=128,E_SLIDER_FX_Speed=128,E_SLIDER_Number_Chases=3,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=7.2</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Default,E_CHECKBOX_Spirals_3D=0,E_CHECKBOX_Spirals_Blend=0,E_CHECKBOX_Spirals_Grow=0,E_CHECKBOX_Spirals_Shrink=0,E_SLIDER_Spirals_Count=1,E_SLIDER_Spirals_Rotation=20,E_SLIDER_Spirals_Thickness=50,E_TEXTCTRL_Spirals_Movement=-15.9</Effect>
+    <Effect>B_CHOICE_BufferStyle=Per Model Per Preview,E_CHECKBOX_Marquee_PixelOffsets=0,E_CHECKBOX_Marquee_Reverse=0,E_CHECKBOX_Marquee_WrapX=0,E_CHECKBOX_Marquee_WrapY=0,E_NOTEBOOK_Marquee=Settings,E_SLIDER_MarqueeXC=0,E_SLIDER_MarqueeYC=0,E_SLIDER_Marquee_Band_Size=1,E_SLIDER_Marquee_ScaleX=100,E_SLIDER_Marquee_ScaleY=100,E_SLIDER_Marquee_Skip_Size=0,E_SLIDER_Marquee_Speed=1,E_SLIDER_Marquee_Stagger=0,E_SLIDER_Marquee_Start=0,E_SLIDER_Marquee_Thickness=1</Effect>
+    <Effect></Effect>
+    <Effect>B_CHOICE_BufferStyle=Single Line,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_Fade_Type=None,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_SingleStrand_FX=Fireworks 1D,E_CHOICE_SingleStrand_FX_Palette=* Colors Only,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Skips,E_SLIDER_Color_Mix1=10,E_SLIDER_FX_Intensity=128,E_SLIDER_FX_Speed=128,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=35,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+    <Effect>E_CHECKBOX_Pinwheel_Rotation=1,E_CHOICE_Pinwheel_3D=None,E_CHOICE_Pinwheel_Style=New Render Method,E_SLIDER_PinwheelXC=0,E_SLIDER_PinwheelYC=0,E_SLIDER_Pinwheel_ArmSize=225,E_SLIDER_Pinwheel_Arms=7,E_SLIDER_Pinwheel_Offset=0,E_SLIDER_Pinwheel_Speed=2,E_SLIDER_Pinwheel_Thickness=0,E_SLIDER_Pinwheel_Twist=0</Effect>
+    <Effect>E_CHECKBOX_ColorWash_CircularPalette=1,E_TEXTCTRL_ColorWash_Cycles=0.1</Effect>
+    <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Boscoyo ChromaBulb Face,E_CHOICE_Faces_Phoneme=E</Effect>
+    <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Boscoyo ChromaBulb Face,E_CHOICE_Faces_Phoneme=MBP</Effect>
+    <Effect>E_CHECKBOX_Faces_Outline=1,E_CHOICE_Faces_Eyes=Auto,E_CHOICE_Faces_FaceDefinition=Tree,E_CHOICE_Faces_Phoneme=O</Effect>
+    <Effect>E_CHECKBOX_ColorWash_CircularPalette=1,E_TEXTCTRL_ColorWash_Cycles=17.0</Effect>
+  </EffectDB>
+  <SequenceMedia />
+  <DataLayers>
+    <DataLayer lor_params="116" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode>" source="&lt;auto-generated>" name="Nutcracker" />
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="false" type="timing" name="New Timing" visible="true" views="Master View,Faces,Snowflakes,Everything,Default,Arches,Matrixes,Yard Elements,Effects,Floods,Toni,Robbie,Spinners" active="true" />
+    <Element collapsed="false" type="model" name="Windows" visible="true" />
+    <Element collapsed="false" type="model" name="House Outline" visible="true" />
+    <Element collapsed="false" type="model" name="Colums" visible="true" />
+    <Element collapsed="false" type="model" name="Large Spiral Trees" visible="true" />
+    <Element collapsed="false" type="model" name="Arches - All" visible="true" />
+    <Element collapsed="false" type="model" name="Canes" visible="true" />
+    <Element collapsed="false" type="model" name="GE Rosa Grande Outer Ball GRP" visible="true" />
+    <Element collapsed="false" type="model" name="GE Rosa Grande Snowflake Spoke GRP" visible="true" />
+    <Element collapsed="false" type="model" name="GE Reel Max Outer Triangles GRP" visible="true" />
+    <Element collapsed="false" type="model" name="GE Reel MaxChevrons II GRP" visible="true" />
+    <Element collapsed="false" type="model" name="GE Starlord Ribbon GRP" visible="true" />
+    <Element collapsed="false" type="model" name="GE Starlord Spoke GRP" visible="true" />
+    <Element collapsed="false" type="model" name="Reindeer and Santa" visible="true" />
+    <Element collapsed="false" type="model" name="GE Baby Grand Illusion Snowflake Filled GRP" visible="true" />
+    <Element collapsed="false" type="model" name="GE Baby Grand Illusion Snowflake Spokes GRP" visible="true" />
+    <Element collapsed="false" type="model" name="GE MOAW Swag GRP" visible="true" />
+    <Element collapsed="false" type="model" name="GE Santa Sleigh" visible="true" />
+    <Element collapsed="false" type="model" name="GE Merry Christmas" visible="true" />
+    <Element collapsed="false" type="model" name="Singing Bulb - Right" visible="true" />
+    <Element collapsed="false" type="model" name="Singing Bulb - Left" visible="true" />
+    <Element collapsed="false" type="model" name="Singing Bulb - Center" visible="true" />
+    <Element collapsed="false" type="model" name="SingingTree" visible="true" />
+    <Element collapsed="false" type="model" name="GE Grinch Talk" visible="true" />
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Windows">
+      <EffectLayer>
+        <Effect ref="0" name="Marquee" startTime="0" endTime="30250" palette="0" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="House Outline">
+      <EffectLayer>
+        <Effect ref="0" name="Marquee" startTime="0" endTime="30250" palette="0" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Colums">
+      <EffectLayer>
+        <Effect ref="0" name="Marquee" startTime="0" endTime="30250" palette="0" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Large Spiral Trees">
+      <EffectLayer>
+        <Effect ref="0" name="Marquee" startTime="0" endTime="30250" palette="1" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Arches - All">
+      <EffectLayer>
+        <Effect ref="1" name="SingleStrand" startTime="0" endTime="34200" palette="2" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Canes">
+      <EffectLayer>
+        <Effect ref="2" name="Spirals" startTime="0" endTime="34200" palette="2" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="GE Rosa Grande Outer Ball GRP">
+      <EffectLayer>
+        <Effect ref="3" name="Marquee" startTime="0" endTime="30850" palette="2" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="GE Rosa Grande Snowflake Spoke GRP">
+      <EffectLayer>
+        <Effect ref="4" name="On" startTime="0" endTime="29700" palette="3" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="GE Reel Max Outer Triangles GRP">
+      <EffectLayer>
+        <Effect ref="5" name="SingleStrand" startTime="0" endTime="29700" palette="2" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="GE Reel MaxChevrons II GRP">
+      <EffectLayer>
+        <Effect ref="4" name="On" startTime="0" endTime="29700" palette="4" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="GE Starlord Ribbon GRP">
+      <EffectLayer>
+        <Effect ref="0" name="Marquee" startTime="0" endTime="30275" palette="2" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="GE Starlord Spoke GRP">
+      <EffectLayer>
+        <Effect ref="5" name="SingleStrand" startTime="0" endTime="30275" palette="2" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Reindeer and Santa">
+      <EffectLayer>
+        <Effect ref="4" name="On" startTime="0" endTime="31400" palette="3" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="GE Baby Grand Illusion Snowflake Filled GRP">
+      <EffectLayer>
+        <Effect ref="6" name="Pinwheel" startTime="0" endTime="30125" palette="5" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="GE Baby Grand Illusion Snowflake Spokes GRP">
+      <EffectLayer>
+        <Effect ref="4" name="On" startTime="0" endTime="30275" palette="6" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="GE MOAW Swag GRP">
+      <EffectLayer>
+        <Effect ref="4" name="On" startTime="0" endTime="30275" palette="6" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="GE Santa Sleigh">
+      <EffectLayer />
+      <SubModelEffectLayer name="Hat">
+        <Effect ref="4" name="On" startTime="0" endTime="32350" palette="2" />
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Hat Sash">
+        <Effect ref="4" name="On" startTime="0" endTime="32350" palette="7" />
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Hat Ball">
+        <Effect ref="4" name="On" startTime="0" endTime="32350" palette="7" />
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Eye Brows">
+        <Effect ref="4" name="On" startTime="0" endTime="32350" palette="7" />
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Eyes">
+        <Effect ref="4" name="On" startTime="0" endTime="32350" palette="7" />
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Nose">
+        <Effect ref="4" name="On" startTime="0" endTime="32350" palette="7" />
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Beard">
+        <Effect ref="4" name="On" startTime="0" endTime="32350" palette="7" />
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Jacket">
+        <Effect ref="4" name="On" startTime="0" endTime="32350" palette="2" />
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Jacket Sash">
+        <Effect ref="4" name="On" startTime="0" endTime="32350" palette="2" />
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Gloves">
+        <Effect ref="4" name="On" startTime="0" endTime="32350" palette="7" />
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Belt">
+        <Effect ref="4" name="On" startTime="0" endTime="32350" palette="7" />
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Bag">
+        <Effect ref="4" name="On" startTime="0" endTime="32350" palette="2" />
+      </SubModelEffectLayer>
+    </Element>
+    <Element type="model" name="GE Merry Christmas">
+      <EffectLayer>
+        <Effect ref="7" name="Color Wash" startTime="0" endTime="43200" palette="8" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Singing Bulb - Right">
+      <EffectLayer>
+        <Effect ref="8" name="Faces" startTime="0" endTime="32500" palette="9" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Singing Bulb - Left">
+      <EffectLayer>
+        <Effect ref="9" name="Faces" startTime="0" endTime="32500" palette="10" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Singing Bulb - Center">
+      <EffectLayer>
+        <Effect ref="8" name="Faces" startTime="0" endTime="32500" palette="11" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="SingingTree">
+      <EffectLayer>
+        <Effect ref="10" name="Faces" startTime="0" endTime="32500" palette="9" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="GE Grinch Talk">
+      <EffectLayer />
+      <SubModelEffectLayer name="Outline">
+        <Effect ref="4" name="On" startTime="0" endTime="37250" palette="12" />
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Eyes">
+        <Effect ref="4" name="On" startTime="0" endTime="37450" palette="5" />
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Eyeballs">
+        <Effect ref="4" name="On" startTime="0" endTime="37450" palette="5" />
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Nose">
+        <Effect ref="4" name="On" startTime="0" endTime="37450" palette="5" />
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Mouth 2">
+        <Effect ref="4" name="On" startTime="0" endTime="37400" palette="5" />
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Heart Inner">
+        <Effect ref="4" name="On" startTime="0" endTime="37650" palette="2" />
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Heart Outer">
+        <Effect ref="11" name="Color Wash" startTime="0" endTime="37650" palette="13" />
+      </SubModelEffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1" />
+    <Tag number="1" position="-1" />
+    <Tag number="2" position="-1" />
+    <Tag number="3" position="-1" />
+    <Tag number="4" position="-1" />
+    <Tag number="5" position="-1" />
+    <Tag number="6" position="-1" />
+    <Tag number="7" position="-1" />
+    <Tag number="8" position="-1" />
+    <Tag number="9" position="-1" />
+  </TimingTags>
+</xsequence>
