@@ -107,11 +107,10 @@ The source audit already reported missing assets for Abracadabra and The Dead Da
 - tune_t0
 - tuneto-halloween
 
+## Lossless media optimization — 2026-09-16
+
+`WCMTM_Matrix 1.avi` is now included for both What Christmas Means to Me sequences using lossless FFV1 in AVI. All 6,409 decoded BGR24 frames match the raw original (SHA-256 `049e9f9844c347d5311b66f6b0faf79a80f24105934628232d090942ec10764a`); 40 fps and 160.225 seconds are unchanged. The two identical copies use one LFS object. Original files remain on Personal-Drive. Playback in xLights has not been reverified after conversion.
+
 ## Pending oversized media
 
-These original files are retained locally but are not included in the GitHub upload. Each exceeds GitHub Free/Pro’s 2 GB per-file LFS limit. A decision on lossless compression or alternate storage is pending; sequences that use them need the original local files in the meantime.
-
-- `Sequences/What Christmas Means to Me/Media/Videos-26baea/WCMTM_Matrix 1.avi` — 2205268534 bytes
-- `Sequences/What Christmas Means to Me 2/Media/Videos-26baea/WCMTM_Matrix 1.avi` — 2205268534 bytes
-- `Sequences/static halloween/Media/Images-57b64d/jackolatern.mp4` — 3957640788 bytes
-- `Sequences/tuneto-halloween/Media/Images-57b64d/jackolatern.mp4` — 3957640788 bytes
+`jackolatern.mp4` remains external in `static halloween` and `tuneto-halloween`. The 3,957,640,788-byte original is almost 12 hours long; lossless recompression of a sample increased its size. Both sequences last 30 seconds and start the video at zero. Approval to include only the used 30 seconds is pending. Full originals remain on the drive and in the local checkout.

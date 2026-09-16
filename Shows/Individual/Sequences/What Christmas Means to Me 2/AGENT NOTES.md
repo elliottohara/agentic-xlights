@@ -11,3 +11,7 @@
 - Existing source audit reports 0 unresolved asset references.
 - Use computer control and the repository AGENTS.md for future edits; one editor at a time.
 - Editing owner: none; GUI session was not opened for this copy.
+
+## 2026-09-16 — Lossless video compression
+
+Replaced the repository copy of WCMTM_Matrix 1.avi with FFV1 lossless video, retaining its filename. All 6,409 decoded frames match the original exactly; 40 fps and 160.225-second duration are preserved. Original remains on Personal-Drive. No sequence or effect settings changed. xLights playback still needs visual verification.
