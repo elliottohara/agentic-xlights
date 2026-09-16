@@ -11,3 +11,7 @@
 - Existing source audit reports 0 unresolved asset references.
 - Use computer control and the repository AGENTS.md for future edits; one editor at a time.
 - Editing owner: none; GUI session was not opened for this copy.
+
+## 2026-09-16 — Pumpkin video shortened
+
+User requested a 15-second clip. Included the first 450 frames at 30 fps (8,908,401 bytes), with decoded frame hashes matching the original segment. Set the pumpkin Video effect to Loop through the 30-second sequence. Full original remains on Personal-Drive. No new xLights visual playback review performed.
